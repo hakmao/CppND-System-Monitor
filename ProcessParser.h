@@ -69,7 +69,6 @@ vector<string> ProcessParser::getPidList()
         if(dirp->d_type != DT_DIR)
             continue;
         // Check whether the file name is numeric (i.e., only digits) 
-        // if (all_of(dirp->d_name, dirp->d_name + std::strlen(dirp->d_name), [](char c){ return std::isdigit(c); })) {
         if (Util::isNumeric(dirp->d_name)){
             pid_list.push_back(dirp->d_name);
         }
