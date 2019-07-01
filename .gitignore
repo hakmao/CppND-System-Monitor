@@ -1,0 +1,101 @@
+# ##################
+#
+# jcf's .gitignore
+#
+# ##################
+
+# General
+.hgignore
+.c9
+.DS_Store
+Thumbs.db
+.localized
+
+# Editor files
+# ============
+*~
+~*
+*.sw?
+.brackets.json
+.idea/
+workspace.xml
+
+# Log files and Temporary files
+# ===============
+*.tmp
+temp/
+tmp/
+log/*
+!/log/.keep
+!/tmp/.keep
+
+# Databasees
+#/db/*.sqlite3
+#/db/*.sqlite-journal
+
+# Bundled vendor or third-party libraries
+node_modules/
+bower_components/
+bower/
+vendor/
+
+# Generated files and output directories
+index.html
+html/
+json/
+output/
+out/
+dist/
+build/
+public/
+pub/
+
+# C/C++
+*.slo
+*.lo
+*.o
+*.so
+*.so.*
+*.dylib
+*.lai
+*.la
+*.a
+*.lib
+*.dll
+*.exe
+*.out
+*.app
+install_manifest.txt
+CMakeCache.txt
+CMakeFiles
+cmake_install.cmake
+
+# Python
+*.py[cod]
+.installed.cfg
+__pycache__
+pip-log.txt
+.coverage
+.tox
+nosetests.xml
+
+# Ruby
+*.rbc
+*.sassc
+.sass-cache
+capybara-*.html
+#.rspec
+.rvmrc
+/.bundle
+**.orig
+rerun.txt
+pickle-email-*.html
+*.gem
+.bundle
+.config
+InstalledFiles
+spec/reports
+test/tmp
+test/version_tmp
+.yardoc
+_yardoc
